@@ -1,0 +1,50 @@
+Locators:
+
+ID
+Xpath
+Css Selector
+name
+Class name
+Tag name
+Link text
+partial Link text 
+
+********************************************************************************************
+
+<input type = "text">
+input - tagname
+type - attribute
+text - value
+
+********************************************************************************************
+
+CSS Selector
+class name-> tagname.classname
+id -> tagname#id 
+
+if there is no tag name 
+Tagname[attribute='value']
+
+*********************************************************************************************
+implicit time out:
+
+- if driver is given 5 seconds implicit timeout - if the locator is found in 2 seconds ->
+it will go to next line -> it will not wait for 5 seconds
+- it is globally applicable to each and every step
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
